@@ -1,0 +1,56 @@
+.field{
+    width: 800px;
+    height: 300px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJXNAkjpwyMUTJCcRB7ZtxbI4Az2r4fpBBOO2qXlqhzcxtqtCY9A6uH9T5); 
+    background-size: 100% 100%;
+}
+.ball{
+    background-image: url(ball.jpg);
+    background-size: 100% 100%;
+    border-radius: 80px;
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    top: 200px;
+    left: 200px;
+ }
+
+.field:hover .ball {
+    top: 130px;
+    left: 660px;
+    
+    transition-duration: 1.5s;
+    transform: rotate(270deg);
+}
+
+.man{
+    background-image: url(neymar-sprite.png);
+    width: 122px;
+    height: 293px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+    
+.field:hover .man {
+    
+    width: 225px;
+    height: 300px;
+    background-position: 225px;
+}
+.stal{
+    background-image: url(http://vignette1.wikia.nocookie.net/dont-starve/images/0/04/%D0%A1%D1%82%D0%B0%D0%BB%D0%B0%D0%BA%D1%82%D0%B8%D1%82.png/revision/latest?cb=20130927141836&path-prefix=ru);
+    width: 100px;
+    height: 150px;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 0;
+    left: 650px;
+    }
+
+
+
+
+        
+        
+        
